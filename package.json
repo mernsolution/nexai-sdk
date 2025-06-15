@@ -1,0 +1,24 @@
+{
+  "name": "nexai-sdk",
+  "version": "1.0.4",
+  "description": "SDK for fetching automation scheduled blog content from NexAI SaaS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["sdk", "ai", "wordpress", "blog", "automation", "nexai"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mernsolution/nexai-sdk.git"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
